@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <title>Lista de Compras</title>
+</head>
+<body>
+  <div id="app">
+    <header>
+      <img src="logo.svg" alt="Quicklist">
+    </header>
+
+    <main>
+      <span>Voltar</span>
+      <h1 id="title">Compras da semana</h1>
+      <section>
+        <form>
+
+          <div class="add-item">
+            <input type="text" class="text" placeholder="Adicione um novo item">
+            <button id="btn">Adicionar item</button>
+          </div>
+
+          
+          <div class="items">
+            <!--
+            <div class="item">
+              <input type="checkbox" id="pao-forma" name="pao-forma" value="bicicleta">
+              <label for="pao-forma">Pão de forma</label>
+              <img src="assets/Frame-3.png" alt="lixeira" class="trash">
+            </div>
+
+            <div class="item">
+              <input type="checkbox" id="cafe" name="cafe" value="bicicleta">
+              <label for="cafe">Café preto</label>
+              <img src="assets/Frame-3.png" alt="lixeira" class="trash">
+            </div>
+
+            <div class="item">
+              <input type="checkbox" id="suco" name="suco" value="bicicleta">
+              <label for="suco">Suco de laranja</label>
+              <img src="assets/Frame-3.png" alt="lixeira" class="trash">
+            </div>
+
+            <div class="item">
+              <input type="checkbox" id="bolacha" name="bolacha" value="bicicleta">
+              <label for="bolacha">Bolacha</label>
+              <img src="assets/Frame-3.png" alt="lixeira" class="trash">
+            </div>
+            -->
+        </div>
+      
+
+        <div class="error">
+          <img src="assets/warning-circle-filled.png" alt="">
+          <p>O item foi removido da lista</p>
+          <img class="delete-small" src="assets/delete-small.png" alt="">
+        </div>
+
+
+        </form>
+      </section>
+    </main>
+
+  </div><!--app-->
+
+  <script src="script.js"></script>
+</body>
+</html>
